@@ -41,7 +41,7 @@ mat-card-content {
 }
 
 a:hover {
-  background-color: rgb(245, 149, 194);
+  background-color: rgb(245, 219, 149);
 }
 
 .flex-footer {
@@ -72,17 +72,6 @@ mat-card div {
   margin-right: 8px;
 }
 
-a {
-  display: inline-block;
-  color: rgb(56, 19, 219);
-  background-color: rgb(209, 218, 214);
-  margin-right: 8px;
-  width: 125px;
-  //overflow:hidden;
-  border-radius: 10%;
-  height: 40px;
-  text-align: center;
-}
 
 nav {
   height: 100px;
@@ -92,6 +81,10 @@ nav {
   color: black;
   background-color: #e3f2fd;
 }
-.footer-image {
-  max-width: 50px;
+
+.nav-set{
+  flex: auto;
+  flex-flow: row;
+  justify-content: space-around;
+ 
 }

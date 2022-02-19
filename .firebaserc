@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-ntumsi": {
+      "hosting": {
+        "lln": [
+          "portfolio-ntumsi"
+        ]
+      }
+    }
+  }
+}

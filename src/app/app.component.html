@@ -1,76 +1,50 @@
 <mat-card>
-  <mat-toolbar color="">
+  <mat-toolbar color="secondary">
     <mat-toolbar-row>
       <span class="flex-menu" style="color:blue;">Portfolio</span>
 
       <span style="color:blue;">lah Ntumsi</span>
     </mat-toolbar-row>
+  
+  <mat-toolbar-row >
+      <ul class="nav nav-tabs nav-set">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="About" routerLinkActive="active">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="CurriculumV" routerLinkActive="active"
+            >Skills</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Resume" routerLinkActive="active"
+            >Work History</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Languages" routerLinkActive="active"
+            >Languages</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Technologies" routerLinkActive="active"
+            >Technologies</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Education" routerLinkActive="active"
+            >Education</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Projects" routerLinkActive="active"
+            >Projects</a
+          >
+        </li>
+      </ul>
+    </mat-toolbar-row>
   </mat-toolbar>
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link" routerLink="About" routerLinkActive="active">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="CurriculumV" routerLinkActive="active"
-        >CV</a
-      >
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="Resume" routerLinkActive="active"
-        >Resume</a
-      >
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="Languages" routerLinkActive="active"
-        >Languages</a
-      >
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="Technologies" routerLinkActive="active"
-        >Technologies</a
-      >
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="Education" routerLinkActive="active"
-        >Education</a
-      >
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="Projects" routerLinkActive="active"
-        >Projects</a
-      >
-    </li>
-  </ul>
 </mat-card>
 <router-outlet></router-outlet>
-<nav class="navbar " style="background-color: #e3f2fd;">
-  <!-- Navbar content -->
-  <div class="footer-items">
-    <img class="footer-image" src="assets/linkedin.png" />
-    <a
-      href="https://www.linkedin.com/in/lah-ntumsi-ba2b3219/"
-      target="_blank"
-      id="footer-link"
-      >Linkedin</a
-    >
-  </div>
-  <div class="footer-items">
-    <img class="footer-image" src="assets/facebook.png" />
-    <a href="https://www.facebook.com/ntumsi" target="_blank" id="footer-link"
-      >Facebook</a
-    >
-  </div>
-  <div class="footer-items">
-    <img class="footer-image" src="assets/github.png" />
-    <a href="https://github.com/ntumsi" target="_blank" id="footer-link"
-      >Github</a
-    >
-  </div>
-</nav>
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-  <!-- Navbar content -->
 
-  <h5 style="position: absolute; left:75%;">
-    Lah Ntumsi &copy; 2020
-  </h5>
-</nav>
+<app-footer></app-footer>
