@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bulma/css/bulma.css";
 @import "bootstrap/dist/css/bootstrap.css";
+
 html,
 body {
   height: 100%;
@@ -15,8 +16,9 @@ mat-card {
   position: relative;
   left: 10%;
 }
-mat-toolbar {
-  flex: 1 1 auto;
+.mat-tool-bar{
+  display: flex;
+  height: 200;
 }
 mat-card-footer {
   max-width: auto;
@@ -41,7 +43,7 @@ mat-card-content {
 }
 
 a:hover {
-  background-color: rgb(245, 219, 149);
+  background-color: rgb(149, 245, 181);
 }
 
 .flex-footer {
@@ -74,8 +76,13 @@ mat-card div {
 
 
 nav {
-  height: 100px;
+  height: 200;
   align-self: auto;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size:x-large;
+
 }
 #footer-link {
   color: black;
