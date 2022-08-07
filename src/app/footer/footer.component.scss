@@ -8,7 +8,11 @@ mat-toolbar{
 }
 .footer-image{
     color:white;
-    max-width: 50px;
-   
+    max-width: 50px;  
 }
-
+.footer-div{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    overflow: hidden;
+}

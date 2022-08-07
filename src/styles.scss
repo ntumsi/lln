@@ -46,54 +46,20 @@ a:hover {
   background-color: rgb(149, 245, 181);
 }
 
-.flex-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /*align-content: space-between;*/
-  padding-inline: 30px;
-  height: 100px;
-  position: relative;
-  left: 40%;
-}
-.flex-footer div {
-  max-width: 200px;
-  margin-right: 25px;
-  position: absolute;
-  bottom: 0px;
-}
-.flex-footer i {
-  color: white;
-}
-.flex-menu {
-  flex: 1 1 auto;
-  overflow: hidden;
-}
-
 mat-card div {
   margin-right: 8px;
 }
 
 
 nav {
-  height: 200;
-  align-self: auto;
   display: flex;
   align-items: center;
+  align-content: space-around;
   font-weight: bold;
-  font-size:x-large;
+  font-size:large;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  
 
 }
-#footer-link {
-  color: black;
-  background-color: #e3f2fd;
-}
 
-.nav-set{
-  flex: auto;
-  flex-flow: row;
-  justify-content: space-around;
- 
-}
+
