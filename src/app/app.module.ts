@@ -16,6 +16,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
     LanguagesComponent,
     TechnologiesComponent,
     ResumeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

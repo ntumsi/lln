@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bulma/css/bulma.css";
 @import "bootstrap/dist/css/bootstrap.css";
+
 html,
 body {
   height: 100%;
@@ -15,8 +16,9 @@ mat-card {
   position: relative;
   left: 10%;
 }
-mat-toolbar {
-  flex: 1 1 auto;
+.mat-tool-bar{
+  display: flex;
+  height: 200;
 }
 mat-card-footer {
   max-width: auto;
@@ -41,57 +43,23 @@ mat-card-content {
 }
 
 a:hover {
-  background-color: rgb(245, 149, 194);
-}
-
-.flex-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /*align-content: space-between;*/
-  padding-inline: 30px;
-  height: 100px;
-  position: relative;
-  left: 40%;
-}
-.flex-footer div {
-  max-width: 200px;
-  margin-right: 25px;
-  position: absolute;
-  bottom: 0px;
-}
-.flex-footer i {
-  color: white;
-}
-.flex-menu {
-  flex: 1 1 auto;
-  overflow: hidden;
+  background-color: rgb(149, 245, 181);
 }
 
 mat-card div {
   margin-right: 8px;
 }
 
-a {
-  display: inline-block;
-  color: rgb(56, 19, 219);
-  background-color: rgb(209, 218, 214);
-  margin-right: 8px;
-  width: 125px;
-  //overflow:hidden;
-  border-radius: 10%;
-  height: 40px;
-  text-align: center;
-}
 
 nav {
-  height: 100px;
-  align-self: auto;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  font-weight: bold;
+  font-size:large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+
 }
-#footer-link {
-  color: black;
-  background-color: #e3f2fd;
-}
-.footer-image {
-  max-width: 50px;
-}
+
+
