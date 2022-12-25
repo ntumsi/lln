@@ -5,12 +5,13 @@ mat-card{
     justify-items: auto;
 }
 .project-cards{
-    top: 20;
-    display: flex;
-    align-items: flex-start;
-    align-content: space-between;
-    justify-items: auto;
+  display: flexbox;
+  align-items: flex-start;
+  flex-direction: row;
+  align-content: center;
+  justify-self: start;
 }
 div{
-    width: 18rem;
+    width: 100%;
+    padding:20px;
 }
