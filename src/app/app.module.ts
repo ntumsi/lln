@@ -41,6 +41,7 @@ import { HeaderComponent } from './header/header.component';
     MatToolbarModule,
     MatButtonModule,
     MatGridListModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
